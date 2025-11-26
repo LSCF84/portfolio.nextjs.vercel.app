@@ -17,38 +17,33 @@ export const navMenus: INavItem[] = [
   //   icon: faHome,
   // },
   {
-    name: "About",
+    name: "Acerca de",
     link: "/#about",
     icon: faUser,
   },
   {
-    name: "Services",
+    name: "Servicios",
     link: "/#services",
     icon: faBriefcase,
   },
   {
-    name: "Experiences",
+    name: "Experiencia",
     link: "/#experiences",
     icon: faTimeline,
   },
   {
-    name: "Skills",
+    name: "Aptitudes",
     link: "/#skills",
     icon: faAward,
   },
   {
-    name: "Projects",
+    name: "Proyectos Recientes",
     link: "/#projects",
     icon: faLaptopCode,
   },
   {
-    name: "Contact",
+    name: "Contáctanos",
     link: "/#contact",
     icon: faEnvelope,
-  },
-  {
-    name: "Payment",
-    link: "/payment",
-    icon: faCreditCard,
   },
 ];
