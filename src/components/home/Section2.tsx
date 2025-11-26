@@ -12,7 +12,7 @@ const HomeSection2 = ({ id }: { id: string }) => {
     >
       <ConstrainedBox classNames="p-4 py-16 z-20">
         <SectionTitle>Services</SectionTitle>
-        <HoverLayoutGrid cards={services} />
+        <HoverLayoutGrid cards={Servicios} />
       </ConstrainedBox>
     </ResponsiveBox>
   );
