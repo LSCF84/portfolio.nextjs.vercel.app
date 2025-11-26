@@ -12,7 +12,7 @@ const HomeSection4 = ({ id }: { id: string }) => {
       id={id}
     >
       <ConstrainedBox classNames="p-4 py-16">
-        <SectionTitle>Skills</SectionTitle>
+        <SectionTitle>Aptitudes</SectionTitle>
 
         <GridBox classNames="justify-items-center grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-16">
           {skills.map((skill, index) => {
