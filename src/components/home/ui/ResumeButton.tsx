@@ -8,7 +8,7 @@ const ResumeButton = () => {
       href={LocalConfig.values.NEXT_PUBLIC_RESUME_LINK}
       target="_blank"
     >
-      Download Resume
+      Descargar resumen
     </Link>
   );
 };
