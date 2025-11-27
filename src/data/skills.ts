@@ -57,7 +57,7 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "Desarrollo Backend", // Título traducido
+    title: "Desarrollo Backend",
     items: [
       {
         title: "Node.js",
@@ -74,11 +74,10 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/skills/socket-io.png",
       },
-      // Elemento de Nest.js comentado
     ],
-  }, // <--- ¡La llave de cierre que faltaba!
+  },
   {
-    title: "Gestión de Bases de Datos", // Título traducido
+    title: "Gestión de Bases de Datos",
     items: [
       {
         title: "MongoDB",
@@ -98,7 +97,7 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "DevOps / Control de Versiones (VCS)", // Título traducido
+    title: "DevOps / Control de Versiones (VCS)",
     items: [
       {
         title: "Docker",
@@ -123,7 +122,7 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "Varios", // Título traducido
+    title: "Varios",
     items: [
       {
         title: "Firebase",
@@ -138,6 +137,25 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "Habilidades No Técnicas", // Título traducido
+    title: "Habilidades No Técnicas",
     items: [
       {
+        title: "Resolución de Problemas",
+        level: SkillLevel.Expert,
+        icon: "/images/logical-thinking.png",
+      },
+      {
+        title: "Colaboración",
+        level: SkillLevel.Expert,
+        icon: "/images/collaboration.png",
+      },
+      {
+        title: "Habilidades Analíticas",
+        level: SkillLevel.Expert,
+        icon: "/images/analytical-skills.png",
+      },
+    ],
+  },
+];
+
+export default skills;
