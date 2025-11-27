@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
 
-// Nota: La fuente Poppins ya está cargada en el layout principal.
+// Nota: La fuente Poppins ya está cargada en el layout principal
 
 export const metadata: Metadata = {
   title: 'Política de Cookies | LSCF Development Hub',
