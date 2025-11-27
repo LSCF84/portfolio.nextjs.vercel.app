@@ -2,7 +2,7 @@ import { ISkillListItem, SkillLevel } from "@/types";
 
 const skills: ISkillListItem[] = [
   {
-    title: "Lenguajes de programación",
+    title: "Lenguajes de Programación",
     items: [
       {
         title: "JavaScript",
@@ -22,7 +22,7 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "Desarrollo frontend",
+    title: "Desarrollo Frontend",
     items: [
       {
         title: "Next.js",
@@ -57,7 +57,7 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "Backend Development",
+    title: "Desarrollo Backend", // Título traducido
     items: [
       {
         title: "Node.js",
@@ -74,14 +74,11 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/skills/socket-io.png",
       },
-      // {
-      //   title: "Nest.js",
-      //   level: SkillLevel.Beginner,
-      //   icon: "/skills/nestjs.svg",
-      // },
+      // Elemento de Nest.js comentado
     ],
+  }, // <--- ¡La llave de cierre que faltaba!
   {
-    title: "Database Management",
+    title: "Gestión de Bases de Datos", // Título traducido
     items: [
       {
         title: "MongoDB",
@@ -101,7 +98,7 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "DevOps/VCS",
+    title: "DevOps / Control de Versiones (VCS)", // Título traducido
     items: [
       {
         title: "Docker",
@@ -126,7 +123,7 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "Miscellaneous",
+    title: "Varios", // Título traducido
     items: [
       {
         title: "Firebase",
@@ -141,25 +138,6 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "Nontechnical Skills",
+    title: "Habilidades No Técnicas", // Título traducido
     items: [
       {
-        title: "Problem Solving",
-        level: SkillLevel.Expert,
-        icon: "/images/logical-thinking.png",
-      },
-      {
-        title: "Collaboration",
-        level: SkillLevel.Expert,
-        icon: "/images/collaboration.png",
-      },
-      {
-        title: "Analytical Skills",
-        level: SkillLevel.Expert,
-        icon: "/images/analytical-skills.png",
-      },
-    ],
-  },
-];
-
-export default skills;
