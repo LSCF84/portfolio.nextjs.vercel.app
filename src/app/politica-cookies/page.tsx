@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const CookiePolicyPage = () => {
   const lastUpdated = "27 de noviembre de 2025";
   const siteUrl = "https://portfolio-nextjs-vercel-app.vercel.app/";
-  const contactEmail = "contact@tudominio.com"; // **IMPORTANTE: Reemplaza con tu email de contacto real**
+  const contactEmail = "l.sergio.camacho.fernandez@gmail.com"; // **IMPORTANTE: Reemplaza con tu email de contacto real**
 
   // Definición de colores principales usados consistentemente con el tema general
   const primaryColor = 'text-indigo-600 dark:text-indigo-400';
