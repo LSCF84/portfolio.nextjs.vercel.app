@@ -28,19 +28,7 @@ const socialLinks: ISocialLinkItem[] = [
     icon: faTelegram,
     text: Strings.telegramUsername,
   },
-  {
-    name: Strings.instagram,
-    url: Strings.instagramLink,
-    icon: faInstagram,
-    text: Strings.instagramUsername,
-  },
-  {
-    name: Strings.twitter,
-    url: Strings.twitterLink,
-    icon: faXTwitter,
-    text: Strings.twitterUsername,
-  },
-  {
+   {
     name: Strings.email,
     url: Strings.primaryEmailLink,
     icon: faEnvelope,
