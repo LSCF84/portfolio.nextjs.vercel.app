@@ -2,16 +2,16 @@ import { IProjectItem, ProjectType, RepoType } from "@/types";
 
 const projects: IProjectItem[] = [
   {
-    id: "social-media-app-flutter",
-    title: "Social Media App",
+    id: "Windows-Error-Diagnostic-with-AI_WEDA",
+    title: "WEDA",
     description:
-      "A social media mobile application developed using Flutter, GetX, Firebase Notifications and Hive.",
-    icon: "/skills/flutter.svg",
+      "Herramienta de diagnóstico de errores de Windows con GUI, que usa la API de OpenAI para analizar logs de eventos y aplicar soluciones automáticas a problemas del sistema.",
+    icon: "/skills/python.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/social-media-app-flutter",
-    url: "https://github.com/nixrajput/social-media-app-flutter/releases",
-    tags: ["Flutter", "Dart", "GetX", "Hive"],
+    githubUrl: "https://github.com/LSCF84/Windows-Error-Diagnostic-with-AI_WEDA",
+    url: "https://github.com/LSCF84/Windows-Error-Diagnostic-with-AI_WEDA",
+    tags: ["Windows", "Python", "Gui", "openAI"],
   },
   {
     id: "e-commerce-app-mern",
