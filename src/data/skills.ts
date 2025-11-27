@@ -14,10 +14,10 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/skills/typescript.svg",
       },
-      {
-        title: "Dart",
-        level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
+    { 
+        title: "Python",
+        level: SkillLevel.Intermediate, // Nivel sugerido
+        icon: "/skills/python.svg", 
       },
     ],
   },
@@ -129,10 +129,25 @@ const skills: ISkillListItem[] = [
   {
     title: "Varios",
     items: [
-      {
-        title: "Firebase",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/firebase.svg",
+     { // Nuevo: Windows
+        title: "Windows (SO)",
+        level: SkillLevel.Intermediate, // Nivel sugerido
+        icon: "/skills/windows.svg", 
+      },
+      { // Nuevo: Networking
+        title: "Networking (Conceptos)",
+        level: SkillLevel.Beginner, // Nivel sugerido
+        icon: "/skills/network.svg",
+      },
+      { // Nuevo: Jira
+        title: "Jira",
+        level: SkillLevel.Intermediate, // Nivel sugerido
+        icon: "/skills/jira.svg",
+      },
+      { // Nuevo: AI/ML
+        title: "Inteligencia Artificial (AI/ML)",
+        level: SkillLevel.Beginner, // Nivel sugerido
+        icon: "/skills/ai.svg", 
       },
       {
         title: "Ubuntu",
