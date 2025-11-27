@@ -41,7 +41,7 @@ const projects: IProjectItem[] = [
     id: "PDF-Renamer-Security-PDF-RS",
     title: "PDF-Renamer-Security-PDF-RS",
     description:
-      "A RESTful API developed using Node.js, Express.js, and MongoDB to integrate backend and frontend with ease.",
+      "Renombrar y proteger PDFs con la opcion de dar seguridad a los archivos.",
     icon: "/skills/python.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
@@ -52,7 +52,7 @@ const projects: IProjectItem[] = [
     id: "Check-Software-Minimum-CSM",
     title: "Check-Software-Minimum-CSM",
     description:
-      "A grocery list maker mobile application developed using Flutter, BloC, Hive DB, and PDF.",
+      "Utilidad Python con interfaz gráfica (GUI) para optimizar y auditar instalaciones semi-automáticas.",
     icon: "/skills/python.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
