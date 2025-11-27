@@ -22,7 +22,7 @@ const Error = ({
           className={`relative flex flex-col justify-center items-center w-screen max-w-full min-h-screen p-4 m-0 overflow-hidden transition duration-300 ease-in-out`}
         >
           <p className="text-3xl/6 text-[var(--errorColor)]">
-            Something went wrong...!!!
+            ¡Algo salió mal...!
           </p>
 
           <div className="border border-[var(--errorColor)] rounded-[var(--borderRadius)] mt-4 p-4">
@@ -38,7 +38,7 @@ const Error = ({
             }}
             onClick={() => reset()}
           >
-            Refresh
+            Recargar
           </button>
         </div>
 
