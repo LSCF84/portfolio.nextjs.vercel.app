@@ -2,7 +2,7 @@ import { ISkillListItem, SkillLevel } from "@/types";
 
 const skills: ISkillListItem[] = [
   {
-    title: "Programming Languages",
+    title: "Lenguajes de programación",
     items: [
       {
         title: "JavaScript",
@@ -22,7 +22,7 @@ const skills: ISkillListItem[] = [
     ],
   },
   {
-    title: "Frontend Development",
+    title: "Desarrollo frontend",
     items: [
       {
         title: "Next.js",
@@ -80,22 +80,6 @@ const skills: ISkillListItem[] = [
       //   icon: "/skills/nestjs.svg",
       // },
     ],
-  },
-  {
-    title: "Mobile App Development",
-    items: [
-      {
-        title: "Flutter",
-        level: SkillLevel.Expert,
-        icon: "/skills/flutter.svg",
-      },
-      {
-        title: "GetX",
-        level: SkillLevel.Expert,
-        icon: "/skills/getx.png",
-      },
-    ],
-  },
   {
     title: "Database Management",
     items: [
