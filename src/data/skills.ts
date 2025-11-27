@@ -100,6 +100,11 @@ const skills: ISkillListItem[] = [
     title: "DevOps / Control de Versiones (VCS)",
     items: [
       {
+        title: "Vercel", // <-- Agregado Vercel
+        level: SkillLevel.Expert, // Asumo nivel experto ya que la aplicación se aloja allí
+        icon: "/skills/vercel.svg", // Asegúrate de tener este ícono
+      },
+      {
         title: "Docker",
         level: SkillLevel.Beginner,
         icon: "/skills/docker.png",
