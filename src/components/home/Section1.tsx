@@ -35,7 +35,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
         </Column>
 
         <div className="mt-12 lg:mt-16 w-full flex flex-col items-center">
-          <p className="text-base/6 font-medium">Follow me here</p>
+          <p className="text-base/6 font-medium">Sígueme aquí</p>
 
           <Row classNames="mt-2 gap-2">
             {socialLinks.slice(0, 5).map((link, index) => {
