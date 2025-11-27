@@ -115,7 +115,7 @@ const projects: IProjectItem[] = [
     icon: "/skills/nextjs.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/LSCF84/core-digital.vercel.app,
+    githubUrl: "https://github.com/LSCF84/core-digital.vercel.app",
     url: "https://lscf-coredigital.vercel.app/",
     tags: ["Next.js", "Sass", "TypeScript", "Vercel"],
   },
