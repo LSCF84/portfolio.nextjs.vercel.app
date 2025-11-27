@@ -101,7 +101,7 @@ const skills: ISkillListItem[] = [
     items: [
       {
         title: "Vercel", // <-- Agregado Vercel
-        level: SkillLevel.Expert, // Asumo nivel experto ya que la aplicación se aloja allí
+        level: SkillLevel.Expert, // 
         icon: "/skills/vercel.svg", // Asegúrate de tener este ícono
       },
       {
