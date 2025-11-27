@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
 
-// Nota: La fuente Poppins ya está cargada en el layout principal
+// Nota: La fuente Poppins ya está cargada en el layout principal.
 
 export const metadata: Metadata = {
   title: 'Política de Cookies | LSCF Development Hub',
@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 const CookiePolicyPage = () => {
   const lastUpdated = "27 de noviembre de 2025";
   const siteUrl = "https://portfolio-nextjs-vercel-app.vercel.app/";
+  const contactEmail = "contact@tudominio.com"; // **IMPORTANTE: Reemplaza con tu email de contacto real**
 
   // Definición de colores principales usados consistentemente con el tema general
   const primaryColor = 'text-indigo-600 dark:text-indigo-400';
@@ -104,6 +105,19 @@ const CookiePolicyPage = () => {
             </p>
         </div>
         
+        {/* Nueva Sección 4: Contacto */}
+        <h2 className={`text-2xl font-bold ${titleColor} mt-8 mb-4`}>
+          4. Contacto
+        </h2>
+        <p className={`mb-4 ${textColor}`}>
+            Si tiene alguna pregunta sobre nuestra Política de Cookies, puede contactarnos a través del siguiente correo electrónico:
+        </p>
+        <p className={`font-semibold ${primaryColor}`}>
+            <a href={`mailto:${contactEmail}`} className="hover:underline transition-opacity">
+                {contactEmail}
+            </a>
+        </p>
+
         <p className={`text-sm text-gray-500 dark:text-gray-400 mt-10 text-center border-t border-gray-200 dark:border-gray-700 pt-4`}>
             Última actualización: {lastUpdated}
         </p>
