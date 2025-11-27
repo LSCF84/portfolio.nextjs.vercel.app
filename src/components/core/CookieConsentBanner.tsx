@@ -4,7 +4,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 
-// Clave para guardar el consentimiento en localStorage
+// Clave para guardar el consentimiento en localStorage.
 const CONSENT_KEY = 'cookie_consent_nextjs';
 
 /**
