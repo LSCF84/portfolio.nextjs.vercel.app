@@ -117,7 +117,7 @@ const CookieConsentBanner = () => {
                 <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
                     <p className="text-sm">
                         Usamos cookies propias y de terceros para análisis y optimización. Al hacer clic en "Aceptar", consientes su uso. Consulta nuestra{' '}
-                        <Link href="/politica-cookies" className="font-semibold underline text-indigo-400 hover:text-white dark:hover:text-white transition-colors">
+                        <Link href="/politica-cookies/page.tsx" className="font-semibold underline text-indigo-400 hover:text-white dark:hover:text-white transition-colors">
                             Política de Cookies
                         </Link>
                         .
