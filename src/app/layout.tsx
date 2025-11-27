@@ -5,7 +5,11 @@ import { Metadata } from "next";
 import dynamic from "next/dynamic";
 import { navMenus } from "@/data/navMenus";
 
+// 1. IMPORTAR EL COMPONENTE DE COOKIES
+import CookieConsentBanner from "@/components/core/CookieConsentBanner"; 
+
 const poppins = Poppins({
+// ... (Configuración de la fuente Poppins sin cambios)
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   style: ["normal", "italic"],
   subsets: ["latin", "latin-ext"],
@@ -25,6 +29,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+// ... (Configuración de Metadata sin cambios)
   title: "LSCF",
   description:
     "Tecnico IT Y Desarrollador Jr.",
@@ -96,6 +101,9 @@ const isDebug = process.env.NODE_ENV === "development";
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <html lang="en" className={poppins.className}>
+      {/* Mantenemos el componente GoogleAnalytics aquí, pero su carga real (el script)
+          debe ser manejada y bloqueada dentro de GoogleAnalytics.tsx o en CookieConsentBanner.tsx
+          cuando se acepte el consentimiento. */}
       {isDebug ? null : <GoogleAnalytics />}
 
       <body className={isDebug ? "debug-screens" : ""}>
@@ -103,6 +111,9 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
         <FloatingNavbar className="app_nav" navItems={navMenus} />
         <main>{children}</main>
         <ScrollToTop />
+        
+        {/* 2. RENDERIZAR EL BANNER DE COOKIES AQUÍ */}
+        <CookieConsentBanner />
       </body>
     </html>
   );
