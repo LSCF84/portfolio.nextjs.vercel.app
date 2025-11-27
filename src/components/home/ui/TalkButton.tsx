@@ -8,7 +8,7 @@ const TalkButton = () => {
       href={Strings.telegramLink}
       target="_blank"
     >
-      Let&apos;s Talk
+      Hablemos
     </Link>
   );
 };
