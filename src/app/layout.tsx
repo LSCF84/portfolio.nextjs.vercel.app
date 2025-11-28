@@ -30,7 +30,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
 // ... (Configuración de Metadata sin cambios)
-  title: "LSCF",
+  title: "Portfolio Nextjs",
   description:
     "Tecnico IT Y Desarrollador Jr.",
   robots: {
@@ -71,16 +71,14 @@ export const metadata: Metadata = {
     },
   ],
   keywords: [
-    "nikhil rajput",
-    "nikhil",
-    "nixrajput",
-    "nikhil-rajput",
-    "rajput nikhil",
-    "founder of nixlab",
-    "nixlab founder",
+    "Luis Sergio",
+    "Luis",
+    "Camacho",
+    "Fernandez",
+    "LSCF",
     "full stack developer",
-    "indian developer",
-    "nixrajput github",
+    "spanish developer",
+    "LSCF84 github",
   ],
 };
 
