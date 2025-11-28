@@ -1,15 +1,14 @@
 "use client";
 import React from 'react';
-// Usamos solo etiquetas <a> estándar en lugar de next/link para mayor compatibilidad en el entorno de compilación.
+// Usamos solo etiquetas <a> estándar en lugar de next/link para mayor compatibilidad.
 
 const NotFound = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#0d1117] text-white">
-      {/* El estilo de la animación se incluye con <style jsx> (o <style jsx global>) para una implementación 
-        rápida dentro del componente.
-        CORRECCIÓN: Se pasó explícitamente `jsx={true}` y `global={true}` para eliminar la advertencia de React.
+      {/* CORRECCIÓN: Se reemplazó <style jsx={true} global={true}> por una etiqueta <style> simple 
+          para evitar conflictos de sintaxis con el App Router de Next.js.
       */}
-      <style jsx={true} global={true}>{`
+      <style>{`
         /* ------------------------------------- */
         /* Animación del Robot */
         /* ------------------------------------- */
@@ -66,3 +65,13 @@ const NotFound = () => {
         </div>
 
         {/* Botón de Acción Principal */}
+        <a href="/" className="btn-primary inline-block px-10 py-3 bg-indigo-600 text-white font-semibold rounded-full text-lg shadow-xl transition duration-300 ease-in-out">
+          Volver al Main Layout (Inicio)
+        </a>
+        
+      </div>
+    </div>
+  );
+};
+
+export default NotFound;
