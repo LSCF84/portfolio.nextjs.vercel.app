@@ -84,4 +84,19 @@ El portfolio estará disponible en `http://localhost:3000`.
 
 ## 🔗 Enlaces
 
-* **Aplicación en Vivo (Vercel):**
+* **Mi Perfil de GitHub:** [https://github.com/LSCF84](https://github.com/LSCF84)
+
+---
+
+## 📬 Contacto
+
+Si tienes alguna pregunta, oportunidad de colaboración o simplemente quieres saludar, no dudes en contactarme:
+
+* **GitHub:** [@LSCF84](https://github.com/LSCF84)
+* **Correo Electrónico:** l.sergio.camacho.fernandez@gmail.com
+
+---
+
+## 📝 Licencia
+
+Este proyecto está bajo la licencia **MIT**.
